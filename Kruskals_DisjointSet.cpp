@@ -118,7 +118,6 @@ int main()
     int res = kruskals(g_nodes, g_from, g_to, g_weight);
     fout<<res;
     // Write your code here.
-
     
 
     return 0;
