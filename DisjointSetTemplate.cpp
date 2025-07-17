@@ -30,7 +30,7 @@ void unionbyrank(int u, int v){
         return;
     }else if(rank[u_par_u > u_par_v]){
         parent[u_par_v] = u_par_u;
-    }else if(rank[u_par_u < u_par_v]){
+    }else if(rank[u_par_u] < u_par_v){
         parent[u_par_u] = u_par_v;
     }else{
         parent[u_par_u] = u_par_v;
